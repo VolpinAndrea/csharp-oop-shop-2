@@ -7,3 +7,10 @@ bottiglia.Bevi(0.6);
 bottiglia.StampaTutto();
 bottiglia.Riempi(0.9);
 bottiglia.StampaTutto();
+
+List<string> fruttiEso = new List<string>() { "Papaya", "Mango", "Avicado" };
+SacchettoFrutta SaccoUno = new("Tropical", "Fresca", 3.4, 0.9, "Jambo", fruttiEso);
+
+SaccoUno.StampaTutto();
+SaccoUno.AggiungiFrutto("Sasso");
+SaccoUno.StampaTutto();

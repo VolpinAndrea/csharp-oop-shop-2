@@ -79,7 +79,6 @@ namespace CSharpShop2
 
         public virtual void StampaTutto()
         {
-            Console.WriteLine("------------------");
             Console.WriteLine("Codice: " + this.codice);
             Console.WriteLine("Nome: " + this.nome);
             Console.WriteLine("Descrizione: " + descrizione); // senza this apposta
